@@ -1,0 +1,9 @@
+{
+  "name": "websocket-image-server",
+  "dependencies": {},
+  "globalDependencies": {
+    "gm": "registry:dt/gm#0.0.0+20160328142802",
+    "node": "registry:env/node#4.0.0+20160507210304",
+    "ws": "registry:dt/ws#0.0.0+20160317120654"
+  }
+}

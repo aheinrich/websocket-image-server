@@ -1,0 +1,21 @@
+{
+  "name": "websocket-image-server",
+  "version": "0.0.1",
+  "description": "websockets + graphicsmagick",
+  "scripts": {
+    "start": "concurrently \"tsc -w\" \"nodemon src\\server\\server.js\" ",
+    "postinstall": "typings install"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "gm": "^1.22.0",
+    "nodemon": "^1.9.2",
+    "ws": "^1.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^2.1.0",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  }
+}
